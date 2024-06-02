@@ -8,9 +8,6 @@ const months=["January","February","March","April","May","June","July","August",
 
 const time= new Date()
 
-console.log(time)
-
-
 console.log()
 date.innerHTML=time.getDate();
 day.innerHTML=weekDays[time.getDay()];
